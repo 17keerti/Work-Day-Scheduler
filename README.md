@@ -13,7 +13,7 @@ This is a calendar application that allows user to save events for each hour of 
 
 
 ## Screenshots
-![Screenshot 1](./assets/images/01.png)
+![Screenshot 1](./assets/Images/01.png)
 
 
 ## Code
