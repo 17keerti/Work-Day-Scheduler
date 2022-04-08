@@ -24,9 +24,9 @@ function timeBlockColor() {
   var currentHour = moment().hour();
   $(".hour").each(function () {
     var time = $(this).text();
-    var splitTime = time.split();
+    var splitTime = time.split(" ");
     var blockTime = parseInt(splitTime[0]);
-    if (splitTime[1] == 'PM') {
+    if (splitTime[1] == 'PM' && splitTime[0] !=="12"){
       blockTime = blockTime + 12;
     }
     if (blockTime > currentHour) {
